@@ -1,0 +1,14 @@
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\bin\Debug\net8.0\CachePractice.Domain.deps.json
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\bin\Debug\net8.0\CachePractice.Domain.runtimeconfig.json
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\bin\Debug\net8.0\CachePractice.Domain.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\bin\Debug\net8.0\CachePractice.Domain.pdb
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.csproj.AssemblyReference.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.AssemblyInfoInputs.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.AssemblyInfo.cs
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.csproj.CoreCompileInputs.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\refint\CachePractice.Domain.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.pdb
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.genruntimeconfig.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\ref\CachePractice.Domain.dll

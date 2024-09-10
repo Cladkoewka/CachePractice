@@ -1,0 +1,17 @@
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Persistence.deps.json
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Persistence.runtimeconfig.json
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Persistence.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Persistence.pdb
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Domain.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\bin\Debug\net8.0\CachePractice.Domain.pdb
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.csproj.AssemblyReference.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.AssemblyInfoInputs.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.AssemblyInfo.cs
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.csproj.CoreCompileInputs.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePra.166C6C1B.Up2Date
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\refint\CachePractice.Persistence.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.pdb
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.genruntimeconfig.cache
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\ref\CachePractice.Persistence.dll
