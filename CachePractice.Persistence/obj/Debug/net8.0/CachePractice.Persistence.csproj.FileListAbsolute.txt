@@ -15,3 +15,4 @@ C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\refi
 C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.pdb
 C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.genruntimeconfig.cache
 C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\ref\CachePractice.Persistence.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Persistence\obj\Debug\net8.0\CachePractice.Persistence.sourcelink.json

@@ -17,3 +17,4 @@ C:\ITProjects\.Net\CachePractice\CachePractice.Logic\obj\Debug\net8.0\refint\Cac
 C:\ITProjects\.Net\CachePractice\CachePractice.Logic\obj\Debug\net8.0\CachePractice.Logic.pdb
 C:\ITProjects\.Net\CachePractice\CachePractice.Logic\obj\Debug\net8.0\CachePractice.Logic.genruntimeconfig.cache
 C:\ITProjects\.Net\CachePractice\CachePractice.Logic\obj\Debug\net8.0\ref\CachePractice.Logic.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Logic\obj\Debug\net8.0\CachePractice.Logic.sourcelink.json

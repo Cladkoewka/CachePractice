@@ -16,6 +16,11 @@ public static class APIExtensions
         {
             options.UseNpgsql(configuration.GetConnectionString("DbConnection"));
         });
+        services.AddStackExchangeRedisCache(options =>
+        {
+            options.Configuration = configuration.GetSection("Redis:Configuration").Value;
+            options.InstanceName = configuration.GetSection("Redis:InstanceName").Value;
+        });
         services.AddControllers();
     }
 }

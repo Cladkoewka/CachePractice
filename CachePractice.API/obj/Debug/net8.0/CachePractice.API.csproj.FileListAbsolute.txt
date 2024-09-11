@@ -104,3 +104,10 @@ C:\ITProjects\.Net\CachePractice\CachePractice.API\obj\Debug\net8.0\refint\Cache
 C:\ITProjects\.Net\CachePractice\CachePractice.API\obj\Debug\net8.0\CachePractice.API.pdb
 C:\ITProjects\.Net\CachePractice\CachePractice.API\obj\Debug\net8.0\CachePractice.API.genruntimeconfig.cache
 C:\ITProjects\.Net\CachePractice\CachePractice.API\obj\Debug\net8.0\ref\CachePractice.API.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.API\obj\Debug\net8.0\CachePractice.API.sourcelink.json

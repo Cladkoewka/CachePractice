@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CachePractice.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca74fdeb2c106ae5fa1bb841b3321f2d971c2b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CachePractice.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CachePractice.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

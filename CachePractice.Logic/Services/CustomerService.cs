@@ -1,6 +1,7 @@
+using System.Text.Json;
 using CachePractice.Domain.Models;
 using CachePractice.Persistence;
-using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace CachePractice.Logic.Services;
 
@@ -10,9 +11,9 @@ public class CustomerService
     const string CustomerCacheKeyPrefix = "customer_";
     
     private readonly CustomerRepository _repository;
-    private readonly IMemoryCache _cache;
+    private readonly IDistributedCache _cache;
 
-    public CustomerService(CustomerRepository repository, IMemoryCache cache)
+    public CustomerService(CustomerRepository repository, IDistributedCache cache)
     {
         _repository = repository;
         _cache = cache;
@@ -20,16 +21,18 @@ public class CustomerService
 
     public async Task<IReadOnlyList<Customer>?> GetAllCustomersAsync()
     {
-        var isCached = _cache.TryGetValue(AllCustomersCacheKey, out IReadOnlyList<Customer>? customers);
-        if (!isCached)
+        var cachedCustomers = await _cache.GetStringAsync(AllCustomersCacheKey);
+        if (!string.IsNullOrEmpty(cachedCustomers))
         {
-            customers = await _repository.GetAllCustomersAsync();
-
-            var cacheEntryOptions = new MemoryCacheEntryOptions()
-                .SetSlidingExpiration(TimeSpan.FromMinutes(5));
-
-            _cache.Set(AllCustomersCacheKey, customers, cacheEntryOptions);
+            return JsonSerializer.Deserialize<List<Customer>>(cachedCustomers);
         }
+
+        var customers = await _repository.GetAllCustomersAsync();
+        
+        var options = new DistributedCacheEntryOptions()
+            .SetSlidingExpiration(TimeSpan.FromMinutes(5));
+
+        await _cache.SetStringAsync(AllCustomersCacheKey, JsonSerializer.Serialize(customers), options);
 
         return customers;
     }
@@ -37,20 +40,18 @@ public class CustomerService
     public async Task<Customer?> GetCustomerByIdAsync(int id)
     {
         string cacheKey = CustomerCacheKeyPrefix + id.ToString();
-        bool isCached = _cache.TryGetValue(cacheKey, out Customer? customer);
-        if (!isCached)
+        var cachedCustomer = await _cache.GetStringAsync(cacheKey);
+        if (!string.IsNullOrEmpty(cachedCustomer))
         {
-            customer = await _repository.GetCustomerByIdAsync(id);
-
-            if (customer != null)
-            {
-                var cacheEntryOptions = new MemoryCacheEntryOptions()
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(5));
-
-
-                _cache.Set(cacheKey, customer, cacheEntryOptions);
-            }
+            return JsonSerializer.Deserialize<Customer>(cachedCustomer);
         }
+
+        var customer = await _repository.GetCustomerByIdAsync(id);
+        
+        var options = new DistributedCacheEntryOptions()
+            .SetSlidingExpiration(TimeSpan.FromMinutes(5));
+        
+        await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(customer), options);
 
         return customer;
     }

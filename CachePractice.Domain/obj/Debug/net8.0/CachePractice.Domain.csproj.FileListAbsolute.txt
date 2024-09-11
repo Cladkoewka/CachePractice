@@ -12,3 +12,4 @@ C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\refint\Ca
 C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.pdb
 C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.genruntimeconfig.cache
 C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\ref\CachePractice.Domain.dll
+C:\ITProjects\.Net\CachePractice\CachePractice.Domain\obj\Debug\net8.0\CachePractice.Domain.sourcelink.json
